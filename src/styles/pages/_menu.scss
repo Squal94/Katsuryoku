@@ -1,0 +1,34 @@
+.menuContainer {
+  &__main {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 2000px;
+    position: relative;
+    z-index: 0;
+    &--bg {
+      position: absolute;
+      z-index: 1;
+      width: 100%;
+    }
+    &--bg img {
+      width: 100%;
+      object-fit: contain;
+      opacity: 0.1;
+      z-index: 1;
+    }
+    &--logo {
+      margin-top: 50px;
+      margin-left: 20px;
+      width: 150px;
+      z-index: 2;
+    }
+  }
+  &__main h1 {
+    margin: 50px;
+    font-family: "Kaushan", Arial, Helvetica, sans-serif;
+    z-index: 2;
+  }
+}

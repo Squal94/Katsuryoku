@@ -1,0 +1,41 @@
+.footerContainer {
+  border-top: 5px solid $writingColorHover1;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  object-fit: cover;
+  position: relative;
+  color: white;
+  &--bg {
+    opacity: 0.2;
+    position: absolute;
+    width: 100%;
+    z-index: -5;
+  }
+  &__logo img {
+    width: 350px;
+  }
+  &__content {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    &__certification h4 {
+      font-size: 25px;
+      font-weight: 400;
+      margin: 5px 10px;
+      text-align: center;
+    }
+    &__certification ul {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+    }
+    &__certification img {
+      width: 100px;
+    }
+  }
+}

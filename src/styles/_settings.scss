@@ -1,0 +1,44 @@
+// Importation de font Montserrat
+@font-face {
+  font-family: "Kaushan";
+  src: url(../assets/fonts/KaushanScript-Regular.otf);
+}
+
+@font-face {
+  font-family: "Dihjauti";
+  src: url(../assets/fonts/Dihjauti-Regular.otf);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/fonts/Poppins-Regular.otf);
+}
+
+// variable color
+$backgroundColor1: #11111f;
+$writingColor1: white;
+$writingColorHover1: rgb(250, 220, 102);
+
+// variable size
+$fontSizeNav: 25px;
+
+//Mixin
+
+//General setting
+
+body {
+  padding: 0;
+  margin: 0;
+  background: $backgroundColor1;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: $writingColor1;
+  font-size: $fontSizeNav;
+  font-family: "Kaushan", Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}

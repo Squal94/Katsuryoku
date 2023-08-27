@@ -1,0 +1,36 @@
+.fixedHeaderContainer {
+  background-color: rgba(31, 31, 31, 0.863);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(-200px);
+  opacity: 0;
+  z-index: 20;
+  &__nav {
+    &__ul {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-around;
+      align-items: center;
+      list-style-type: none;
+    }
+    &__ul li {
+      text-align: center;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    &__ul li:hover {
+      transform: scale(1.2);
+    }
+    &__ul li:hover a {
+      color: $writingColorHover1;
+    }
+    &__ul img {
+      margin-left: -40px;
+      margin-top: 10px;
+      border-radius: 50%;
+      width: 75px;
+    }
+  }
+}

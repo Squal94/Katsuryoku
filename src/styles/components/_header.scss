@@ -1,0 +1,28 @@
+.headerContainer {
+  &__nav {
+    &__ul {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-around;
+      align-items: center;
+      list-style-type: none;
+      margin-left: -40px;
+    }
+    &__ul li {
+      min-width: 100px;
+      text-align: center;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    &__ul li:hover {
+      border-bottom: 0.7px solid $writingColor1;
+      transform: scale(1.2);
+    }
+    &__ul li:hover a {
+      color: $writingColorHover1;
+    }
+    &__ul img {
+      width: 300px;
+    }
+  }
+}
