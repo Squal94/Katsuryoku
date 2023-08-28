@@ -12,7 +12,7 @@ const App = () => {
   window.addEventListener("scroll", () => {
     let windowScrollPourcent =
       (window.scrollY + window.innerHeight) / document.body.offsetHeight;
-    if (windowScrollPourcent >= 0.4 && windowScrollPourcent < 0.6) {
+    if (windowScrollPourcent >= 0.5 && windowScrollPourcent < 0.6) {
       dispatch(scrollPosition("reduceNav"));
     } else if (windowScrollPourcent >= 0.6 && windowScrollPourcent < 0.75) {
       dispatch(scrollPosition("biographySlice"));

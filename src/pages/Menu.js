@@ -39,7 +39,10 @@ const Menu = () => {
         <div className="menuContainer__main__menu">
           <NavMenu />
           <div>
-            <Card data={selectedMenu && selectedMenu[0]} />
+            {selectedMenu &&
+              selectedMenu.map((card) => {
+                return <Card key={card.id} data={card && card} />;
+              })}
           </div>
         </div>
       </main>

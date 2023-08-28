@@ -5,16 +5,15 @@
     flex-flow: column nowrap;
     align-items: center;
     background-color: whitesmoke;
-    height: 2000px;
     position: relative;
+    overflow: hidden;
     &--bg {
       position: absolute;
       z-index: 1;
       width: 100%;
     }
     &--bg img {
-      width: 100%;
-      object-fit: contain;
+      width: 140%;
       opacity: 0.1;
       z-index: -1;
     }

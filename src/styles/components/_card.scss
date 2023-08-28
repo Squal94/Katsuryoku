@@ -1,0 +1,46 @@
+.cardContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  font-family: "Kaushan", Arial, Helvetica, sans-serif;
+  &__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+    overflow: hidden;
+    margin: 20px;
+    border: 2px solid $writingColorHover1;
+  }
+  &__img img {
+    width: 150px;
+    object-fit: cover;
+  }
+  &__info {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  &__info--price {
+    width: 50px;
+    margin: 10px;
+  }
+  &__info h2 {
+    width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0;
+  }
+  &__info p {
+    width: 300px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+}

@@ -1,10 +1,21 @@
 import React from "react";
 
 const Card = ({ data }) => {
-  console.log(data);
+  console.log(data.category);
   return (
     <div className="cardContainer">
-      <h1>test</h1>
+      <div className="cardContainer__img">
+        <img src={data && data.img} alt={` plat + ${data.nom}`} />
+      </div>
+      <div className="cardContainer__info">
+        <div className="cardContainer__info--content">
+          <h2>{data && data.nom}</h2>
+          <p>{data && data.description}</p>
+        </div>
+        <div className="cardContainer__info--price">
+          <p>{data && data.prix}</p>
+        </div>
+      </div>
     </div>
   );
 };
