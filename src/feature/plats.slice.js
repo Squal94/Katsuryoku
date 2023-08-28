@@ -12,7 +12,6 @@ export const platsSlice = createSlice({
     },
     getPlatsdata: (state, action) => {
       state.plats = action.payload;
-      console.log(state.plats);
     },
   },
 });

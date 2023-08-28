@@ -8,10 +8,12 @@ import logoMenu from "./../assets/img/logoMenu.png";
 import menuBg from "./../assets/img/pexels-roman-odintsov-5338138.jpg";
 import { getPlatsdata } from "../feature/plats.slice";
 import NavMenu from "../components/NavMenu";
+import Card from "../components/Card";
 // import { useDispatch, useSelector } from "react-redux";
 
 const Menu = () => {
   const positionScroll = useSelector((state) => state.general.scrollPosition);
+  const selectedMenu = useSelector((state) => state.plats.plats);
   const category = useSelector((state) => state.plats.category);
   const dispatch = useDispatch();
 
@@ -36,6 +38,9 @@ const Menu = () => {
         <h1>Discovery</h1>
         <div className="menuContainer__main__menu">
           <NavMenu />
+          <div>
+            <Card data={selectedMenu && selectedMenu[0]} />
+          </div>
         </div>
       </main>
       <Footer />

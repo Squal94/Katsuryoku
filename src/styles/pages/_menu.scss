@@ -23,6 +23,40 @@
       margin-left: 20px;
       width: 150px;
     }
+    &__menu {
+      &--nav {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        font-family: "Kaushan", Arial, Helvetica, sans-serif;
+        &--left {
+          padding: 20px;
+          color: $writingColorHover1;
+          font-size: 30px;
+          font-weight: 900;
+          transition: transform 0.2s ease-in-out;
+        }
+        &--left:hover {
+          transform: scale(1.5);
+          cursor: pointer;
+        }
+        &--affichage {
+          transition: all 0.2 ease-in-out;
+        }
+        &--right {
+          padding: 20px;
+          color: $writingColorHover1;
+          font-size: 30px;
+          font-weight: 900;
+          transition: transform 0.2s ease-in-out;
+        }
+        &--right:hover {
+          transform: scale(1.5);
+          cursor: pointer;
+        }
+      }
+    }
   }
   &__main h1 {
     margin: 50px;
