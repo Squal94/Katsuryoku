@@ -73,26 +73,26 @@
           "prix": "12 €"
         }
       ],
-      "brochettes": [
+      "brochette": [
         {
-          "id": "Brochettes1",
-          "category": "brochettes",
+          "id": "Brochette1",
+          "category": "brochette",
           "nom": "Palteau decouverte",
           "img": "./public/menu/pexels-valeria-boltneva-1833349.jpg",
           "description": "Plateau contituer de brochette teriaky et de boulette de takoyaki. ",
           "prix": "22 €"
         },
         {
-          "id": "Brochettes2",
-          "category": "brochettes",
+          "id": "Brochette2",
+          "category": "brochette",
           "nom": "Brochette de tofu",
           "img": "./public/menu/pexels-denys-gromov-4669218.jpg",
           "description": "Brochette de tofu ancien et legumes du soleil grillé. ",
           "prix": "17 €"
         },
         {
-          "id": "Brochettes3",
-          "category": "brochettes",
+          "id": "Brochette3",
+          "category": "brochette",
           "nom": "Brochette de filet mignion",
           "img": "./public/menu/pexels-william-choquette-2641886.jpg",
           "description": "Brochette de filet mignion entremêler de tendres legumes mariner et d'une sauce au paprika et soja. ",

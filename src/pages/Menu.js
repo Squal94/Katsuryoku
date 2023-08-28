@@ -7,6 +7,7 @@ import FixedHeader from "../components/FixedHeader";
 import logoMenu from "./../assets/img/logoMenu.png";
 import menuBg from "./../assets/img/pexels-roman-odintsov-5338138.jpg";
 import { getPlatsdata } from "../feature/plats.slice";
+import NavMenu from "../components/NavMenu";
 // import { useDispatch, useSelector } from "react-redux";
 
 const Menu = () => {
@@ -33,7 +34,7 @@ const Menu = () => {
         />
         <h1>Discovery</h1>
         <div className="menuContainer__main__menu">
-          <div className="menuContainer__main__menu--nav"></div>
+          <NavMenu />
         </div>
       </main>
       <Footer />
