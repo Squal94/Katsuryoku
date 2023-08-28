@@ -43,7 +43,9 @@ const Home = () => {
         <p className="home__main__text">
           Une expérience culinaire innovante ancrée dans la tradition japonaise.
         </p>
-        <NavLink className="home__main__btnResa">Reservation</NavLink>
+        <NavLink to="/reservation" className="home__main__btnResa">
+          Reservation
+        </NavLink>
       </div>
       <div className="home__biography">
         <div className="home__biography__text">

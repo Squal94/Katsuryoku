@@ -1,7 +1,6 @@
 import React from "react";
 
 const Card = ({ data }) => {
-  console.log(data.category);
   return (
     <div className="cardContainer">
       <div className="cardContainer__img">
