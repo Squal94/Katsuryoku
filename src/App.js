@@ -6,6 +6,8 @@ import Menu from "./pages/Menu";
 import { useDispatch, useSelector } from "react-redux";
 import { scrollPosition } from "./feature/general.slice";
 import Reservation from "./pages/Reservation";
+import About from "./pages/About";
+import Event from "./pages/Event";
 
 const App = () => {
   const dispatch = useDispatch();
@@ -40,6 +42,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/reservation" element={<Reservation />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/events" element={<Event />} />
         <Route path="/*" element={<Erreur />} />
       </Routes>
     </BrowserRouter>

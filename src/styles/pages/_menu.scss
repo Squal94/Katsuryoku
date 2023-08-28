@@ -23,8 +23,10 @@
       width: 150px;
     }
     &__menu {
+      margin-bottom: 100px;
       &--nav {
         display: flex;
+        margin-bottom: 50px;
         flex-flow: row nowrap;
         justify-content: center;
         align-items: center;

@@ -8,10 +8,10 @@ const Header = () => {
       <nav className="headerContainer__nav">
         <ul className="headerContainer__nav__ul">
           <li>
-            <NavLink to="#">About us</NavLink>
+            <NavLink to="/about">About us</NavLink>
           </li>
           <li>
-            <NavLink to="#">Event</NavLink>
+            <NavLink to="/events">Event</NavLink>
           </li>
           <li>
             <NavLink to="/">
