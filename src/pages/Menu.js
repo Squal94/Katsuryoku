@@ -12,13 +12,14 @@ import NavMenu from "../components/NavMenu";
 
 const Menu = () => {
   const positionScroll = useSelector((state) => state.general.scrollPosition);
+  const category = useSelector((state) => state.plats.category);
   const dispatch = useDispatch();
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/menu")
-      .then((res) => dispatch(getPlatsdata(res.data[0].boisson)));
-  }, [dispatch]);
+      .get(`http://localhost:5000/${category.toLowerCase()}`)
+      .then((res) => dispatch(getPlatsdata(res.data)));
+  }, [category, dispatch]);
   return (
     <div className="menuContainer">
       <Header />

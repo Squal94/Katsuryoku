@@ -3,15 +3,16 @@ import { createSlice } from "@reduxjs/toolkit";
 export const platsSlice = createSlice({
   name: "plats",
   initialState: {
-    category: "",
+    category: "Entree",
     plats: "",
   },
   reducers: {
-    getPlatsdata: (state, action) => {
-      state.plats = action.payload;
-    },
     getCategoryChoice: (state, action) => {
       state.category = action.payload;
+    },
+    getPlatsdata: (state, action) => {
+      state.plats = action.payload;
+      console.log(state.plats);
     },
   },
 });
