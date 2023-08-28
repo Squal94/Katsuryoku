@@ -5,6 +5,7 @@ import Erreur from "./pages/Erreur";
 import Menu from "./pages/Menu";
 import { useDispatch, useSelector } from "react-redux";
 import { scrollPosition } from "./feature/general.slice";
+import Reservation from "./pages/Reservation";
 
 const App = () => {
   const dispatch = useDispatch();
@@ -38,6 +39,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
+        <Route path="/reservation" element={<Reservation />} />
         <Route path="/*" element={<Erreur />} />
       </Routes>
     </BrowserRouter>
