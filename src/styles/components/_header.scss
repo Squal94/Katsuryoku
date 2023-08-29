@@ -1,4 +1,5 @@
 .headerContainer {
+  overflow: hidden;
   &__nav {
     &__ul {
       display: flex;
@@ -25,4 +26,13 @@
       width: 300px;
     }
   }
+}
+
+.logoNav {
+  border-radius: 50%;
+}
+
+.logoNav:hover {
+  border-bottom: none;
+  transform: scale(1.1);
 }

@@ -10,18 +10,22 @@ import FixedHeader from "../components/FixedHeader";
 
 const Home = () => {
   const positionScroll = useSelector((state) => state.general.scrollPosition);
+  const biography = document.querySelector(".home__biography");
+  const chef = document.querySelector(".home__chef");
 
   const textAppearing = (positionScroll) => {
-    const biography = document.querySelector(".home__biography");
-    const chef = document.querySelector(".home__chef");
     switch (positionScroll) {
       case "biographySlice":
-        biography.style.opacity = 1;
-        biography.style.transform = "none";
+        if (biography) {
+          biography.style.opacity = 1;
+          biography.style.transform = "none";
+        }
         break;
       case "chefSlice":
-        chef.style.opacity = 1;
-        chef.style.transform = "none";
+        if (chef) {
+          chef.style.opacity = 1;
+          chef.style.transform = "none";
+        }
         break;
       default:
     }

@@ -13,7 +13,7 @@ const Header = () => {
           <li>
             <NavLink to="/events">Event</NavLink>
           </li>
-          <li>
+          <li className="logoNav">
             <NavLink to="/">
               <img src={logo} alt="logo du restaurant Katsuryoku " />
             </NavLink>
