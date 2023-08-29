@@ -1,6 +1,17 @@
+.mainEvent {
+  position: relative;
+
+  img {
+    position: absolute;
+    opacity: 0.2;
+    z-index: -5;
+  }
+}
+
 .events-container {
   max-width: 1000px;
-  margin: 200px auto;
+  padding: 200px;
+  margin: 0px auto;
 
   h2 {
     font-size: 2.5rem;
@@ -24,24 +35,29 @@
     grid-template-areas:
       "a b"
       "c b";
-    gap: 20px;
+    gap: 90px;
 
     .date-content {
-      height: 86px;
-      width: 86px;
-      margin: 0 auto;
+      margin: 20px auto;
       color: white;
-
-      flex-direction: column;
-      line-height: 22px;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: center;
 
       h6 {
-        font-size: 1.7rem;
+        margin: 20px;
+        font-size: 3.5rem;
+      }
+
+      span {
+        font-size: 1.5rem;
       }
     }
 
     .address {
       display: flex;
+      flex-flow: column nowrap;
       justify-content: center;
       align-items: center;
       background: white;
@@ -106,14 +122,22 @@
 
       .address {
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: column nowrap;
         align-items: center;
         justify-content: center;
         height: 100%;
         padding: 0 12px;
+        h6 {
+          color: black;
+        }
+        span {
+          color: grey;
+          font-size: 1.5rem;
+        }
 
         h3 {
           margin: 40px;
+          text-align: center;
         }
         h5 {
           padding: 45px;
