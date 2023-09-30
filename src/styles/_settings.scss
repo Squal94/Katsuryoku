@@ -23,6 +23,15 @@ $fontSizeNav: 25px;
 
 //Mixin
 
+@keyframes anim {
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 //General setting
 
 body {

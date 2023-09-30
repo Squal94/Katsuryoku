@@ -6,12 +6,24 @@ const Header = () => {
   return (
     <div className="headerContainer">
       <nav className="headerContainer__nav">
+        <div className="headerContainer__nav__logoResponsive">
+          <img src={logo} alt="logo du restaurant Katsuryoku " />
+        </div>
         <ul className="headerContainer__nav__ul">
-          <li>
-            <NavLink to="/about">About us</NavLink>
+          <li className="accueil">
+            <NavLink to="/">
+              <p>Accueil</p>
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/events">Event</NavLink>
+            <NavLink to="/about">
+              <p>About us</p>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/events">
+              <p>Event</p>
+            </NavLink>
           </li>
           <li className="logoNav">
             <NavLink to="/">
@@ -19,10 +31,14 @@ const Header = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/menu">Menu</NavLink>
+            <NavLink to="/menu">
+              <p>Menu</p>
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/reservation">Reservation</NavLink>
+            <NavLink to="/reservation">
+              <p>Reservation</p>
+            </NavLink>
           </li>
         </ul>
       </nav>

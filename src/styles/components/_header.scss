@@ -1,6 +1,12 @@
 .headerContainer {
   overflow: hidden;
+  @media screen and (max-width: 800px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   &__nav {
+    margin: 0 auto;
     &__ul {
       display: flex;
       flex-flow: row nowrap;
@@ -8,16 +14,71 @@
       align-items: center;
       list-style-type: none;
       margin-left: -40px;
+      @media screen and (max-width: 800px) {
+        opacity: 0;
+        display: none;
+        position: absolute;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        margin: -40px auto 0 auto;
+        padding: 10px 0;
+        background-color: rgba(237, 235, 235, 0.867);
+        border-radius: 10px;
+        z-index: 200;
+        &:hover {
+          display: flex;
+          opacity: 1;
+        }
+      }
+    }
+    &__logoResponsive {
+      display: none;
+      transition: all 0.3s ease-in-out;
+      @media screen and (max-width: 800px) {
+        position: relative;
+        display: block;
+        img {
+          width: 200px;
+          height: 200px;
+          object-fit: cover;
+          margin: 20px auto;
+          cursor: pointer;
+        }
+      }
+      &:hover ~ .headerContainer__nav__ul {
+        display: flex;
+        animation: anim 0.5s ease-in forwards;
+      }
     }
     &__ul li {
       min-width: 100px;
       text-align: center;
       text-decoration: none;
       transition: all 0.3s ease;
+      p {
+        @media screen and (max-width: 1050px) {
+          font-size: 20px;
+        }
+        @media screen and (max-width: 800px) {
+          color: rgb(11, 11, 11);
+        }
+      }
+      @media screen and (max-width: 800px) {
+        width: 100%;
+      }
     }
     &__ul li:hover {
       border-bottom: 0.7px solid $writingColor1;
       transform: scale(1.2);
+      @media screen and (max-width: 1050px) {
+        border-bottom: none;
+        transform: none;
+      }
+      @media screen and (max-width: 800px) {
+        background-color: rgba(255, 255, 255, 0.983);
+      }
     }
     &__ul li:hover a {
       color: $writingColorHover1;
@@ -30,6 +91,22 @@
 
 .logoNav {
   border-radius: 50%;
+  @media screen and (max-width: 1050px) {
+    order: -3;
+    img {
+      max-width: 200px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+}
+
+.accueil {
+  display: none;
+  @media screen and (max-width: 800px) {
+    display: block;
+  }
 }
 
 .logoNav:hover {

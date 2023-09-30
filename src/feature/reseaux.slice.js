@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-
 export const reseauxSlice = createSlice({
   name: "reseaux",
   initialState: {
