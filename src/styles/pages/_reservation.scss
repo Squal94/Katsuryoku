@@ -1,6 +1,9 @@
 .reservationContainer {
   background-color: white;
   padding: 100px;
+  @media screen and (max-width: 800px) {
+    padding: 10px;
+  }
 }
 
 .form-content {
@@ -25,6 +28,9 @@
       justify-content: center;
       border: 1px dashed grey;
       padding: 20px 0;
+      @media screen and (max-width: 800px) {
+        padding: 20px;
+      }
 
       h3 {
         font-family: "Kaushan", Arial, Helvetica, sans-serif;
@@ -32,6 +38,9 @@
         font-weight: 100;
         margin: 0;
         color: $writingColorHover1;
+        @media screen and (max-width: 800px) {
+          text-align: center;
+        }
       }
 
       h4 {
@@ -39,6 +48,9 @@
         margin-top: -16px;
         letter-spacing: 2px;
         font-size: 1.3rem;
+        @media screen and (max-width: 800px) {
+          text-align: center;
+        }
       }
 
       img {
@@ -51,11 +63,17 @@
         font-weight: 100;
         font-size: 1.1rem;
         margin: 38px 0 12px;
+        @media screen and (max-width: 800px) {
+          text-align: center;
+        }
       }
 
       p {
         color: white;
         font-size: 0.85rem;
+        @media screen and (max-width: 800px) {
+          text-align: center;
+        }
       }
     }
   }
@@ -67,17 +85,23 @@
     align-items: center;
     background-image: url("./../../assets/img/pexels-roman-odintsov-5338138.jpg");
     background-size: cover;
-    bac h2 {
+    h2 {
       font-family: "Kaushan", Arial, Helvetica, sans-serif;
       font-size: 2.5rem;
       font-weight: 100;
       color: $writingColorHover1;
+      @media screen and (max-width: 800px) {
+        color: white;
+      }
     }
     h3 {
       color: black;
       margin-top: -18px;
       font-family: "Kaushan", Arial, Helvetica, sans-serif;
       font-size: 1.8rem;
+      @media screen and (max-width: 800px) {
+        color: white;
+      }
     }
     img {
       height: 25px;
