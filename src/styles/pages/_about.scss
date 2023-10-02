@@ -9,8 +9,11 @@
       overflow: hidden;
       border: 2px solid $writingColorHover1;
       width: 95%;
+
       img {
+        height: 180px;
         width: 100%;
+        object-fit: cover;
       }
     }
     &__history {
@@ -31,20 +34,35 @@
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
+        @media screen and (max-width: 1200px) {
+          width: 100%;
+        }
         h1 {
           font-family: "Kaushan", Arial, Helvetica, sans-serif;
           font-size: 4.5rem;
           margin: -100px auto 50px auto;
           text-decoration: underline $writingColorHover1;
+          @media screen and (max-width: 1200px) {
+            text-align: center;
+          }
         }
         h2 {
           font-family: "Kaushan", Arial, Helvetica, sans-serif;
           font-size: 2.5rem;
+          @media screen and (max-width: 1200px) {
+            text-align: center;
+          }
         }
         p {
           max-width: 750px;
           font-size: 1.3rem;
           padding: 30px;
+          @media screen and (max-width: 1200px) {
+            max-width: none;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+          }
         }
 
         &--img2 {
@@ -59,12 +77,22 @@
         img {
           max-width: 1000px;
         }
+        @media screen and (max-width: 1200px) {
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -5;
+          width: 100%;
+        }
+      }
+      @media screen and (max-width: 1200px) {
+        background-color: rgba(248, 248, 248, 0.672);
       }
     }
     &__video {
       width: 90%;
-      margin: 100px auto;
-      padding: 50px;
+      margin: 50px auto;
+      padding: 20px;
       border: 2px solid $writingColorHover1;
     }
   }
@@ -79,6 +107,9 @@ hr {
   overflow: visible;
   text-align: center;
   height: 5px;
+  @media screen and (max-width: 1200px) {
+    margin: 5px auto;
+  }
 }
 
 hr:after {
@@ -88,4 +119,7 @@ hr:after {
   padding: 0 4px;
   position: relative;
   top: -23px;
+  @media screen and (max-width: 1200px) {
+    background-color: transparent;
+  }
 }
