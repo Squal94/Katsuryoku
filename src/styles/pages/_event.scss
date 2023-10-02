@@ -148,18 +148,15 @@
           padding: 45px;
         }
       }
-      @media screen and (max-width: 1200px) {
-        margin: 0 auto;
-      }
     }
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1000px) {
       display: flex;
       flex-flow: column nowrap;
       align-items: center;
       justify-content: center;
     }
   }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1000px) {
     max-width: none;
     padding: 20px;
   }

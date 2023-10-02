@@ -4,6 +4,10 @@
   align-items: center;
   justify-content: center;
   font-family: "Kaushan", Arial, Helvetica, sans-serif;
+  @media screen and (max-width: 800px) {
+    position: relative;
+    width: 100%;
+  }
   &__img {
     display: flex;
     justify-content: center;
@@ -28,6 +32,11 @@
   &__info--price {
     width: 50px;
     margin: 10px 30px;
+    @media screen and (max-width: 800px) {
+      position: absolute;
+      top: 0;
+      right: -30px;
+    }
   }
   &__info h2 {
     width: 300px;
@@ -35,6 +44,9 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     margin: 0;
+    @media screen and (max-width: 800px) {
+      width: 200px;
+    }
   }
   &__info p {
     width: 300px;
@@ -42,5 +54,8 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     overflow: hidden;
+    @media screen and (max-width: 800px) {
+      width: 250px;
+    }
   }
 }
