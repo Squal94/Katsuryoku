@@ -10,20 +10,26 @@
     margin: auto;
     overflow: hidden;
     position: relative;
-    height: 800px;
     width: 90%;
-
     &__title {
       font-size: 50px;
       margin: 50px;
       text-align: center;
       width: 50%;
+      @media screen and (max-width: 800px) {
+        font-size: 30px;
+        margin: 20px;
+      }
     }
     &__text {
       font-size: 35px;
       margin: 50px;
       text-align: center;
       width: 50%;
+      @media screen and (max-width: 800px) {
+        font-size: 20px;
+        margin: 20px;
+      }
     }
     &__bg {
       opacity: 0.35;
@@ -39,8 +45,13 @@
       border: 2px solid white;
       font-size: 20px;
       margin-top: 40px;
+      margin-bottom: 40px;
       padding: 5px;
       transition: all 0.2s ease-in-out;
+      @media screen and (max-width: 800px) {
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
     }
     &__btnResa:hover {
       background-color: rgb(202, 202, 202, 1);
@@ -67,17 +78,40 @@
       align-items: center;
       justify-content: center;
       margin-left: 30px;
+      @media screen and (max-width: 800px) {
+        height: 100%;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        margin: 0 auto;
+        overflow: scroll;
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
     }
     &__text p {
       font-family: "poppins", Arial, Helvetica, sans-serif;
       margin: 30px;
       line-height: 35px;
+      @media screen and (max-width: 800px) {
+        margin: 10px;
+        line-height: 20px;
+        font-size: 0.7rem;
+      }
     }
     &__text h2 {
       margin: 30px;
     }
     &__img {
       margin: 30px;
+      @media screen and (max-width: 800px) {
+        width: 100px;
+        margin: 10px;
+      }
+    }
+    @media screen and (max-width: 800px) {
+      height: 300px;
+      margin: 10px auto;
     }
   }
   &__chef {
@@ -101,12 +135,27 @@
       align-items: center;
       justify-content: center;
       margin-right: 30px;
+      @media screen and (max-width: 800px) {
+        height: 100%;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        margin: 0 auto;
+        overflow: scroll;
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
     }
     &__text p {
       font-family: "poppins", Arial, Helvetica, sans-serif;
       line-height: 35px;
       margin: 30px;
       text-align: right;
+      @media screen and (max-width: 800px) {
+        margin: 10px;
+        line-height: 20px;
+        font-size: 0.7rem;
+      }
     }
     &__text h2 {
       margin: 30px;
@@ -114,9 +163,21 @@
     }
     &__img {
       margin: 30px;
+      @media screen and (max-width: 800px) {
+        width: 100px;
+        margin: 10px;
+      }
     }
     &__img img {
       object-fit: contain;
+
+      @media screen and (max-width: 800px) {
+        width: 100px;
+      }
+    }
+    @media screen and (max-width: 800px) {
+      height: 300px;
+      margin: 10px auto;
     }
   }
 }
