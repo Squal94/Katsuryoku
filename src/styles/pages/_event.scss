@@ -6,6 +6,10 @@
     position: absolute;
     opacity: 0.2;
     z-index: -5;
+    @media screen and (max-width: 1200px) {
+      height: 100%;
+      object-fit: cover;
+    }
   }
 }
 
@@ -144,6 +148,19 @@
           padding: 45px;
         }
       }
+      @media screen and (max-width: 1200px) {
+        margin: 0 auto;
+      }
     }
+    @media screen and (max-width: 1200px) {
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    max-width: none;
+    padding: 20px;
   }
 }
