@@ -19,7 +19,7 @@ const Menu = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/${category.toLowerCase()}`)
+      .get(`https://squal94.github.io/Katsuryoku/${category.toLowerCase()}`)
       .then((res) => dispatch(getPlatsdata(res.data)));
   }, [category, dispatch]);
   return (

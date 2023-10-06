@@ -15,7 +15,8 @@ const Footer = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/reseaux")
+      .get("https://squal94.github.io/Katsuryoku/reseaux")
+
       .then((res) => disptach(getReseauData(res.data)));
   }, [disptach]);
   return (
