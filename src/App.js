@@ -39,12 +39,12 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/menu" element={<Menu />} />
-        <Route path="/reservation" element={<Reservation />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/events" element={<Event />} />
-        <Route path="/*" element={<Erreur />} />
+        <Route path="/Katsuryoku/" element={<Home />} />
+        <Route path="/Katsuryoku/menu" element={<Menu />} />
+        <Route path="/Katsuryoku/reservation" element={<Reservation />} />
+        <Route path="/Katsuryoku/about" element={<About />} />
+        <Route path="/Katsuryoku/events" element={<Event />} />
+        <Route path="/Katsuryoku/*" element={<Erreur />} />
       </Routes>
     </BrowserRouter>
   );

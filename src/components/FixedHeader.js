@@ -8,22 +8,22 @@ const FixedHeader = () => {
       <nav className="fixedHeaderContainer__nav">
         <ul className="fixedHeaderContainer__nav__ul">
           <li>
-            <NavLink to="/">
+            <NavLink to="/Katsuryoku/">
               <img src={logo} alt="logo du restaurant Katsuryoku " />
             </NavLink>
           </li>
           <li>
-            <NavLink to="/about">About us</NavLink>
+            <NavLink to="/Katsuryoku/about">About us</NavLink>
           </li>
           <li>
-            <NavLink to="/events">Event</NavLink>
+            <NavLink to="/Katsuryoku/events">Event</NavLink>
           </li>
 
           <li>
-            <NavLink to="/menu">Menu</NavLink>
+            <NavLink to="/Katsuryoku/menu">Menu</NavLink>
           </li>
           <li>
-            <NavLink to="/reservation">Reservation</NavLink>
+            <NavLink to="/Katsuryoku/reservation">Reservation</NavLink>
           </li>
         </ul>
       </nav>

@@ -11,32 +11,32 @@ const Header = () => {
         </div>
         <ul className="headerContainer__nav__ul">
           <li className="accueil">
-            <NavLink to="/">
+            <NavLink to="/Katsuryoku/">
               <p>Accueil</p>
             </NavLink>
           </li>
           <li>
-            <NavLink to="/about">
+            <NavLink to="/Katsuryoku/about">
               <p>About us</p>
             </NavLink>
           </li>
           <li>
-            <NavLink to="/events">
+            <NavLink to="/Katsuryoku/events">
               <p>Event</p>
             </NavLink>
           </li>
           <li className="logoNav">
-            <NavLink to="/">
+            <NavLink to="/Katsuryoku/">
               <img src={logo} alt="logo du restaurant Katsuryoku " />
             </NavLink>
           </li>
           <li>
-            <NavLink to="/menu">
+            <NavLink to="/Katsuryoku/menu">
               <p>Menu</p>
             </NavLink>
           </li>
           <li>
-            <NavLink to="/reservation">
+            <NavLink to="/Katsuryoku/reservation">
               <p>Reservation</p>
             </NavLink>
           </li>
