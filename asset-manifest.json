@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Katsuryoku/static/css/main.5b756ac3.css",
+    "main.js": "/Katsuryoku/static/js/main.490cf4a9.js",
+    "static/media/pexels-roman-odintsov-5338138.jpg": "/Katsuryoku/static/media/pexels-roman-odintsov-5338138.aae261761e3cb77deb1e.jpg",
+    "static/media/pexels-furkanfdemir-8286766.jpg": "/Katsuryoku/static/media/pexels-furkanfdemir-8286766.6a9e9708e5091e15a3d2.jpg",
+    "static/media/Label-Rouge_image_full.png": "/Katsuryoku/static/media/Label-Rouge_image_full.57df92a16e8be50cc73d.png",
+    "static/media/Dihjauti-Regular.otf": "/Katsuryoku/static/media/Dihjauti-Regular.c034d4ed2a05e93d905d.otf",
+    "static/media/E-label_Red-1080x675.png": "/Katsuryoku/static/media/E-label_Red-1080x675.94e02b64dd9c29668e48.png",
+    "static/media/pexels-volkan-vardar-3887985.jpg": "/Katsuryoku/static/media/pexels-volkan-vardar-3887985.7738c6a53b018fcf4c0a.jpg",
+    "static/media/pexels-ivan-samkov-8951176.jpg": "/Katsuryoku/static/media/pexels-ivan-samkov-8951176.dcc58d808e5f052f06fc.jpg",
+    "static/media/Poppins-Regular.otf": "/Katsuryoku/static/media/Poppins-Regular.1421a94e04ced16b1ffc.otf",
+    "static/media/KaushanScript-Regular.otf": "/Katsuryoku/static/media/KaushanScript-Regular.e7ce459078ad01fab75f.otf",
+    "static/media/pexels-ron-lach-8879620.jpg": "/Katsuryoku/static/media/pexels-ron-lach-8879620.2ab20a5f11bab641eb7a.jpg",
+    "static/media/logoMenu.png": "/Katsuryoku/static/media/logoMenu.8814a0fa24a2bece7272.png",
+    "static/media/event-02.jpg": "/Katsuryoku/static/media/event-02.10e45ab62490091a8d7c.jpg",
+    "static/media/GRA_3S.png": "/Katsuryoku/static/media/GRA_3S.78a541d98ed6224acae9.png",
+    "static/media/event-03.jpg": "/Katsuryoku/static/media/event-03.240eb8319d1ce2745f6c.jpg",
+    "static/media/event-01.jpg": "/Katsuryoku/static/media/event-01.53e8b80ac8e5a2b691d3.jpg",
+    "static/media/LogoKatsuryoku.png": "/Katsuryoku/static/media/LogoKatsuryoku.20b88768c304bcbb795d.png",
+    "static/media/LogoKatsuryokuWhite.png": "/Katsuryoku/static/media/LogoKatsuryokuWhite.aadbf342a12b47bfb346.png",
+    "index.html": "/Katsuryoku/index.html",
+    "main.5b756ac3.css.map": "/Katsuryoku/static/css/main.5b756ac3.css.map",
+    "main.490cf4a9.js.map": "/Katsuryoku/static/js/main.490cf4a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b756ac3.css",
+    "static/js/main.490cf4a9.js"
+  ]
+}
