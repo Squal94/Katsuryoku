@@ -8,7 +8,7 @@ const Event = () => {
       <Header />
       <div className="mainEvent">
         <img
-          src="/pexels-designecologist-2526105.jpg"
+          src="./pexels-designecologist-2526105.jpg"
           alt="backGround events"
         />
         <div className="events-container">
