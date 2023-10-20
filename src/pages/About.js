@@ -9,7 +9,7 @@ const About = () => {
       <Header />
       <main className="aboutContainer__main">
         <div className="aboutContainer__main--bannerImg">
-          <img src="/aboutBanner2.png" alt=" banniere de sushi " />
+          <img src="./aboutBanner2.png" alt=" banniere de sushi " />
         </div>
         <section className="aboutContainer__main__history">
           <div className="aboutContainer__main__history--content">
@@ -32,12 +32,12 @@ const About = () => {
             </p>
             <img
               className="aboutContainer__main__history--content--img2"
-              src="/logoMenu.png"
+              src="./logoMenu.png"
               alt="logo du menu Katsuryoku"
             />
           </div>
           <div className="aboutContainer__main__history--img">
-            <img src="/pexels-lina-kivaka-1525236.jpg" alt=" plat " />
+            <img src="./pexels-lina-kivaka-1525236.jpg" alt=" plat " />
           </div>
         </section>
         <div className="aboutContainer__main__video">
