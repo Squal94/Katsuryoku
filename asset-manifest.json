@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Katsuryoku/static/css/main.5b756ac3.css",
-    "main.js": "/Katsuryoku/static/js/main.44f8719b.js",
+    "main.js": "/Katsuryoku/static/js/main.13568d1d.js",
     "static/media/pexels-roman-odintsov-5338138.jpg": "/Katsuryoku/static/media/pexels-roman-odintsov-5338138.aae261761e3cb77deb1e.jpg",
     "static/media/pexels-furkanfdemir-8286766.jpg": "/Katsuryoku/static/media/pexels-furkanfdemir-8286766.6a9e9708e5091e15a3d2.jpg",
     "static/media/Label-Rouge_image_full.png": "/Katsuryoku/static/media/Label-Rouge_image_full.57df92a16e8be50cc73d.png",
@@ -21,10 +21,10 @@
     "static/media/LogoKatsuryokuWhite.png": "/Katsuryoku/static/media/LogoKatsuryokuWhite.aadbf342a12b47bfb346.png",
     "index.html": "/Katsuryoku/index.html",
     "main.5b756ac3.css.map": "/Katsuryoku/static/css/main.5b756ac3.css.map",
-    "main.44f8719b.js.map": "/Katsuryoku/static/js/main.44f8719b.js.map"
+    "main.13568d1d.js.map": "/Katsuryoku/static/js/main.13568d1d.js.map"
   },
   "entrypoints": [
     "static/css/main.5b756ac3.css",
-    "static/js/main.44f8719b.js"
+    "static/js/main.13568d1d.js"
   ]
 }
