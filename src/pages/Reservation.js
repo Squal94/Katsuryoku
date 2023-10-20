@@ -12,7 +12,6 @@ const Reservation = () => {
             <div className="hours-content">
               <h3>Time</h3>
               <h4>OPEN</h4>
-              {/* <img src="./assets/img/ic-plate.png" alt="icon-plate" /> */}
               <h5>monday - friday</h5>
               <p>7AM - 11AM (Breakfast)</p>
               <p>11AM - 10PM (Lunch/Dinner)</p>
@@ -26,7 +25,6 @@ const Reservation = () => {
             <div className="form-infos-container">
               <h2>Reservation</h2>
               <h3>ONLINE BOOKING</h3>
-              {/* <img src="./assets/img/ic-plate.png" alt="icon-plate" /> */}
               <div className="form-inputs">
                 <select name="" id="people">
                   <option value="">People</option>

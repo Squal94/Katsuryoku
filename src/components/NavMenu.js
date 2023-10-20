@@ -54,10 +54,3 @@ const NavMenu = () => {
 };
 
 export default NavMenu;
-
-// if (i < onglets.length) {
-//   setMenuCategory(onglets[i]);
-// } else {
-//   i = 0;
-//   setMenuCategory(onglets[i]);
-// }
